@@ -1,6 +1,6 @@
 package classes
 
-class Groups {
+class Gr {
     String name
     String course
 

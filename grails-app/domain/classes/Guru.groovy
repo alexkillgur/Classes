@@ -1,6 +1,6 @@
 package classes
 
-class Teacher {
+class Guru {
     String firstName
     String lastName
     Date dateOfBirth

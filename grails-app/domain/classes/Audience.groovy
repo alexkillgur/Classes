@@ -5,11 +5,11 @@ class Audience {
     String description
     Integer housing
     Integer floor
-//    Teacher teacher
-//    Groups group
+//    Guru teacher
+//    Gr group
 
-    static belongsTo = [ Groups, Teacher]
-//    static belongsTo = [ Teacher]
+    static belongsTo = [ Gr, Guru ]
+//    static belongsTo = [ Guru]
 
     static constraints = {
         name ( blank:false, maxSize:20, nullable:false )

@@ -5,10 +5,10 @@ class Lesson {
     String description
     Date dateOfLesson
     Integer hours
-//    Teacher teacher
+//    Guru teacher
 //    Scholar scholar
 
-    static belongsTo = [ Teacher, Scholar ]
+    static belongsTo = [ Guru, Scholar ]
 //    static hasMany = [
 //            lesson: Scholar
 //    ]

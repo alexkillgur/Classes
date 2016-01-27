@@ -4,11 +4,11 @@ class Scholar {
     String firstName
     String lastName
     Date dateOfBirth
-//    Teacher teacher
-//    Groups group
+//    Guru teacher
+//    Gr group
 
-    static belongsTo = [ Groups, Teacher ]
-//    static belongsTo = [ Groups ]
+    static belongsTo = [ Gr, Guru ]
+//    static belongsTo = [ Gr ]
 
     static hasMany = [
             lesson: Lesson
