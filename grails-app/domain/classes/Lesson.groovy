@@ -5,7 +5,7 @@ class Lesson {
     String description
     Date dateOfLesson
     Integer hours
-//    Guru teachers
+//    Guru teacher
 //    Scholar scholar
 
     static belongsTo = [ Guru, Scholar ]
